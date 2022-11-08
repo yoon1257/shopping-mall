@@ -10,3 +10,35 @@ body {
   color: white;
   border-color: chocolate;
 }
+footer {
+  background-color: black;
+  color: white;
+}
+.first-line {
+  border-bottom: 1px solid #392d23;
+}
+.second-line a {
+  text-decoration: none;
+  color: white;
+}
+.third-line {
+  display: none;
+}
+
+@media screen and (max-width: 48rem) {
+  .first-line {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 48rem) {
+  .second-line {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: 1px solid #392d23;
+  }
+}
+@media screen and (max-width: 48rem) {
+  .third-line {
+    display: block;
+  }
+}
